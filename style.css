@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'spectrumregular';
-    src: url('src/spectrum-webfont.woff2') format('woff2'),
-         url('src/spectrum-webfont.woff') format('woff'),
-         url('src/spectrum.ttf') format('truetype');
+    font-family: 'christmas_beauty';
+    src: url('src/christmas_beauty_script-webfont.woff2') format('woff2'),
+         url('src/christmas_beauty_script-webfont.woff') format('woff'),
+         url('src/christmas-beauty-script.otf');
     font-weight: normal;
     font-style: normal;
 
@@ -64,7 +64,7 @@ a:link, a:visited, a:hover, a:active {
 
 #products {
     text-align: center;
-    font-family: spectrum;
+    font-family: christmas_beauty;
     font-size: 36px;
     color: rgb(115, 33, 11);
 }
@@ -146,7 +146,7 @@ a:link, a:visited, a:hover, a:active {
 
 #fm {
     text-align: center;
-    font-family: spectrum;
+    font-family: christmas_beauty;
     font-size: 64px;
     color: rgb(115, 33, 11);
 }
@@ -158,7 +158,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .spect {
-    font-family: spectrum;
+    font-family: christmas_beauty;
     color: white;
     font-size: 64px;
     text-align: center;
@@ -169,7 +169,7 @@ a:link, a:visited, a:hover, a:active {
 #rh {
     padding-top: 120px;
     color: white;
-    font-family: spectrum;
+    font-family: christmas_beauty;
     font-size: 64px;
 }
 
@@ -185,7 +185,7 @@ a:link, a:visited, a:hover, a:active {
 
 #bh {
     color: white;
-    font-family: spectrum;
+    font-family: christmas_beauty;
     font-size: 64px;
     text-align: center;
 }

@@ -11,7 +11,7 @@ include 'header.php';
                 <figure style="justify-content: center;">
                     <img src="img/contacts.png" alt="contact" style="height:120px;">
                     <figcaption>
-                        <p style="font-family: bebas; padding-top: 30px;"><b>Contact number</b></p>
+                        <p style="font-family: Bebas Neue; font-size: 30px; padding-top: 30px;"><b>Contact number</b></p>
                         <p>+358 12 3456789</p>
                     </figcaption>
                 </figure>
@@ -20,7 +20,7 @@ include 'header.php';
                 <figure style="justify-content: center;">
                     <img src="img/location.png" alt="contact" style="height:120px;">
                     <figcaption>
-                    <p style="font-family: bebas; padding-top: 30px;"><b>Office adress</b></p>
+                    <p style="font-family: Bebas Neue; font-size: 30px; padding-top: 30px;"><b>Office adress</b></p>
                         <p>Vankanlähde 9, 13100 Hämeenlinna</p>
                     </figcaption>
                 </figure>
@@ -29,7 +29,7 @@ include 'header.php';
                 <figure style="justify-content: center;">
                     <img src="img/time.png" alt="contact" style="height:120px;">
                     <figcaption>
-                    <p style="font-family: bebas; padding-top: 30px;"><b>Working hours</b></p>
+                    <p style="font-family: Bebas Neue; font-size: 30px; padding-top: 30px;"><b>Working hours</b></p>
                         <p>12:00 - 00:00 <br /> (without breaks and days off)</p>
                     </figcaption>
                 </figure>

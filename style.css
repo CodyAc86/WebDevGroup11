@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'spectrumregular';
+    src: url('src/spectrum-webfont.woff2') format('woff2'),
+         url('src/spectrum-webfont.woff') format('woff'),
+         url('src/spectrum.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     background-image: url('img/back.jpg') !important;
     background-size: cover;
@@ -15,9 +25,8 @@ a:link, a:visited, a:hover, a:active {
     background-color: rgba(0, 0, 0, 0.7) !important;
     color: white;
     height: 50px;
-    font-family: Bebas;
+    font-family: 'Bebas Neue';
 }
-
         #nav li:hover {
             filter: invert(27%) sepia(5%) saturate(5028%)
             hue-rotate(314deg) brightness(90%) contrast(96%);
@@ -25,7 +34,7 @@ a:link, a:visited, a:hover, a:active {
 
 .about h2 {
     color: rgb(10, 11, 12);
-    font-family: Bebas;
+    font-family: 'Bebas Neue';
     padding-bottom: 20px;
     text-align: center;
 }
@@ -35,9 +44,8 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .mt-0 {
-    font-family: Bebas;
+    font-family: 'Bebas Neue';
 }
-
 .footer {
     left: 0px; 
     right: 0px;
@@ -108,7 +116,7 @@ a:link, a:visited, a:hover, a:active {
     color: #262626;
     line-height: 20px;
     font-size: 20px;
-    font-family: Bebas;
+    font-family: 'Bebas Neue';
 }
 .card .details .center p {
     margin: 10px 0;
@@ -143,25 +151,95 @@ a:link, a:visited, a:hover, a:active {
     color: rgb(115, 33, 11);
 }
 
+.reserve {
+    background-image: url('img/reserve.jpg.');
+    background-size: cover;
+    background-position: center;
+}
+
+.spect {
+    font-family: spectrum;
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+#rh {
+    padding-top: 120px;
+    color: white;
+    font-family: spectrum;
+    font-size: 64px;
+}
+
+#calendar {
+    width: 60%;
+}
+
+.bookheader {
+    background-image: url('img/book.jpg.');
+    background-size: cover;
+    background-position: center;
+}
+
+#bh {
+    color: white;
+    font-family: spectrum;
+    font-size: 64px;
+    text-align: center;
+}
+
 .h2-menu {
     margin-top: 40px;
     text-align: center;
-    font-family: Bebas;
+    font-family: 'Bebas Neue';
     font-size: 34px;
 }
 
 .menu-row {
     margin-top: 20px;
 }
+
 table {
-    table-layout: fixed;
+    font-family: 'Bebas Neue';
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 td {
     width: 33%;
 }
-.today {
-    background:yellow;
+.btn {
+    font-family: 'Bebas Neue';
 }
+
+.btn-danger {
+    background-image: url('img/red.jpg');
+    background-position: center;
+    border: none !important;
+}
+
+.btn-danger:hover {
+    filter: brightness(80%);
+}
+
+.btn-success {
+    background-image: url('img/green.jpg');
+    background-position: center;
+    border: none !important;
+}
+
+.btn-success:hover {
+    filter: brightness(80%);
+}
+
+.cont {
+    background-image: url('img/cont.jpg.');
+    background-size: cover;
+    background-position: center;
+}
+
+
 @media only screen and (max-width: 760px),
         (min-device-width: 802px) and (max-device-width: 1020px) {
 
@@ -252,10 +330,8 @@ td {
             }
         }
         
-        .row{
-            margin-top: 20px;
-        }
-        
         .today{
-            background:yellow;
+            background-color: rgba(24, 26, 27, 0.3) ;
         }
+
+    

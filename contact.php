@@ -1,8 +1,11 @@
 <?php 
 include 'header.php'; 
 ?>
+
+<div class="cont">
+<h1 class='spect'>Contact Information</h1>
+</div>
 <div class="container" style="text-align: center;">
-    <p id="fm" style="margin-top: 90px;">Contact Information</p>
         <div class="row" style="padding: 30px">
             <div class="col-md">
                 <figure style="justify-content: center;">
@@ -36,7 +39,7 @@ include 'header.php';
 
 <hr style="margin: 50px;"/>
 
-<div style="background-image: url('img/hall.jpg'); background-position: center;">
+<div style="background-image: url('img/hall.jpg'); background-position: center; background-size: cover;">
 <div class="container text-center" style="width: 50%">
     <p id="fm" style="color: white; padding-top: 70px;">Learn more</p>
     <p style="color: white">If you have questions about our restaurant, about the organization of banquets, or you want to book a table in the restaurant, fill out the fields below and we will call you back</p>

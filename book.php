@@ -1,6 +1,4 @@
 <?php include "header.php";
-
-echo "<br><br><br>";
 $mysqli = new mysqli('localhost', 'BedCor', '1234Password', 'BedCor');
 if(isset($_GET['date'])){
     $date = $_GET['date'];
@@ -74,8 +72,11 @@ function timeslots($duration, $cleanup, $start, $end)
 }
 
 ?>
-    <div class="container">
-        <h1 class="text-center">Book for Date: <?php echo date('m/d/Y', strtotime($date)); ?></h1><hr>
+    <div class='bookheader'>
+        <h1 class='spect'>Book for Date: <?php echo date('m/d/Y', strtotime($date)); ?></h1>
+    </div>
+
+    <div class="container" style="padding-top: 50px; width: 80%;">
         <div class="row">
             <div class="col-md-12">
                 <?php echo isset($msg)?$msg:""; ?>
@@ -86,9 +87,9 @@ function timeslots($duration, $cleanup, $start, $end)
                 ?>
                 <div class="col-md-2">
                     <div class="form-group">
-                        <?php if(in_array($ts, $bookings)){ ?>
+                        <?php if(in_array($ts, $bookings)) { ?>
                             <button class="btn btn-danger"><?php echo $ts; ?></button>
-                        <?php }else{ ?>
+                        <?php } else { ?>
                             <button class="btn btn-success book" data-timeslot="<?php echo $ts; ?>"><?php echo $ts; ?></button>
                         <?php } ?>
                     </div>                 

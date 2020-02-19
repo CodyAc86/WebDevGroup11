@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'spectrum';
+    src: url(img/spectrum.ttf) format("truetype");
+}
+
+
 body {
     background-image: url('img/back.jpg') !important;
     background-size: cover;
@@ -54,7 +60,7 @@ a:link, a:visited, a:hover, a:active {
 
 #products {
     text-align: center;
-    font-family: spectrum;
+    font-family: 'spectrum';
     font-size: 36px;
     color: rgb(115, 33, 11);
 }
@@ -136,7 +142,7 @@ a:link, a:visited, a:hover, a:active {
 
 #fm {
     text-align: center;
-    font-family: spectrum;
+    font-family: 'spectrum';
     font-size: 64px;
     color: rgb(115, 33, 11);
 }
@@ -148,7 +154,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .spect {
-    font-family: spectrum;
+    font-family: 'spectrum';
     color: white;
     font-size: 64px;
     text-align: center;
@@ -159,7 +165,7 @@ a:link, a:visited, a:hover, a:active {
 #rh {
     padding-top: 120px;
     color: white;
-    font-family: spectrum;
+    font-family: 'spectrum';
     font-size: 64px;
 }
 
@@ -175,7 +181,7 @@ a:link, a:visited, a:hover, a:active {
 
 #bh {
     color: white;
-    font-family: spectrum;
+    font-family: 'spectrum';
     font-size: 64px;
     text-align: center;
 }
@@ -204,7 +210,8 @@ td {
 }
 
 .btn-danger {
-    background-color:  rgb(152, 24, 2) !important;
+    background-image: url('img/red.jpg');
+    background-position: center;
     border: none !important;
 }
 
@@ -213,7 +220,8 @@ td {
 }
 
 .btn-success {
-    background-color:  rgb(68, 141, 65) !important;
+    background-image: url('img/green.jpg');
+    background-position: center;
     border: none !important;
 }
 

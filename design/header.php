@@ -12,6 +12,7 @@
 
     <style>
         @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+        @import url('img/spectrum.ttf');
     </style>
     
 </head>

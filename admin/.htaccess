@@ -1,0 +1,4 @@
+AuthName "Protected Area"
+AuthUserFile C:\xampp\htdocs\myphp\sss\admin\.htpasswd
+AuthType Basic
+require valid-user

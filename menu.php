@@ -172,6 +172,8 @@
                     <div class="col-md-10">
                         <p><strong>Duis mattis ex massa</strong></p>
                         <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+                        <p id="p1">
+                        <button type="button" class="btn btn-outline-light" style="width: 100px;" onclick='document.getElementById("p1").innerHTML = "Peanuts, tree nuts, eggs, fish, shellfish, milk, soy and whea"'>Ingridients</button>
                     </div>
                     <div class="col-md-2">
                         <p>C0€</p>
@@ -181,6 +183,8 @@
                     <div class="col-md-10">
                         <p><strong>Duis mattis ex massa</strong></p>
                         <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+                        <p id="p2">
+                        <button type="button" class="btn btn-outline-light" style="width: 100px;" onclick='document.getElementById("p2").innerHTML = "Peanuts, tree nuts, eggs, fish, shellfish, milk, soy and whea"'>Ingridients</button>
                     </div>
                     <div class="col-md-2">
                         <p>C0€</p>
@@ -190,6 +194,8 @@
                     <div class="col-md-10">
                         <p><strong>Duis mattis ex massa</strong></p>
                         <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+                        <p id="p3">
+                        <button type="button" class="btn btn-outline-light" style="width: 100px;" onclick='document.getElementById("p3").innerHTML = "Peanuts, tree nuts, eggs, fish, shellfish, milk, soy and whea"'>Ingridients</button>
                     </div>
                     <div class="col-md-2">
                         <p>C0€</p>
@@ -199,6 +205,8 @@
                     <div class="col-md-10">
                         <p><strong>Duis mattis ex massa</strong></p>
                         <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+                        <p id="p4">
+                        <button type="button" class="btn btn-outline-light" style="width: 100px;" onclick='document.getElementById("p4").innerHTML = "Peanuts, tree nuts, eggs, fish, shellfish, milk, soy and whea"'>Ingridients</button>
                     </div>
                     <div class="col-md-2">
                         <p>C0€</p>
@@ -213,6 +221,8 @@
                     <div class="col-md-10">
                         <p><strong>Duis mattis ex massa</strong></p>
                         <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+                        <p id="p5">
+                        <button type="button" class="btn btn-outline-light" style="width: 100px;" onclick='document.getElementById("p5").innerHTML = "Peanuts, tree nuts, eggs, fish, shellfish, milk, soy and whea"'>Ingridients</button>
                     </div>
                     <div class="col-md-2">
                         <p>C0€</p>
@@ -222,6 +232,8 @@
                     <div class="col-md-10">
                         <p><strong>Duis mattis ex massa</strong></p>
                         <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+                        <p id="p6">
+                        <button type="button" class="btn btn-outline-light" style="width: 100px;" onclick='document.getElementById("p6").innerHTML = "Peanuts, tree nuts, eggs, fish, shellfish, milk, soy and whea"'>Ingridients</button>
                     </div>
                     <div class="col-md-2">
                         <p>C0€</p>
@@ -231,6 +243,8 @@
                     <div class="col-md-10">
                         <p><strong>Duis mattis ex massa</strong></p>
                         <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+                        <p id="p7">
+                        <button type="button" class="btn btn-outline-light" style="width: 100px;" onclick='document.getElementById("p7").innerHTML = "Peanuts, tree nuts, eggs, fish, shellfish, milk, soy and whea"'>Ingridients</button>
                     </div>
                     <div class="col-md-2">
                         <p>C0€</p>
@@ -240,15 +254,8 @@
                     <div class="col-md-10">
                         <p><strong>Duis mattis ex massa</strong></p>
                         <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
-                    </div>
-                    <div class="col-md-2">
-                        <p>C0€</p>
-                    </div>
-                </div>
-                <div class="row menu-row">
-                    <div class="col-md-10">
-                        <p><strong>Duis mattis ex massa</strong></p>
-                        <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+                        <p id="p8">
+                        <button type="button" class="btn btn-outline-light" style="width: 100px;" onclick='document.getElementById("p8").innerHTML = "Peanuts, tree nuts, eggs, fish, shellfish, milk, soy and whea"'>Ingridients</button>
                     </div>
                     <div class="col-md-2">
                         <p>C0€</p>
@@ -263,6 +270,8 @@
                     <div class="col-md-10">
                         <p><strong>Duis mattis ex massa</strong></p>
                         <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+                        <p id="p9">
+                        <button type="button" class="btn btn-outline-light" style="width: 100px;" onclick='document.getElementById("p9").innerHTML = "Peanuts, tree nuts, eggs, fish, shellfish, milk, soy and whea"'>Ingridients</button>
                     </div>
                     <div class="col-md-2">
                         <p>C0€</p>
@@ -272,6 +281,8 @@
                     <div class="col-md-10">
                         <p><strong>Duis mattis ex massa</strong></p>
                         <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+                        <p id="p10">
+                        <button type="button" class="btn btn-outline-light" style="width: 100px;" onclick='document.getElementById("p10").innerHTML = "Peanuts, tree nuts, eggs, fish, shellfish, milk, soy and whea"'>Ingridients</button>
                     </div>
                     <div class="col-md-2">
                         <p>C0€</p>
@@ -281,6 +292,8 @@
                     <div class="col-md-10">
                         <p><strong>Duis mattis ex massa</strong></p>
                         <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+                        <p id="p11">
+                        <button type="button" class="btn btn-outline-light" style="width: 100px;" onclick='document.getElementById("p11").innerHTML = "Peanuts, tree nuts, eggs, fish, shellfish, milk, soy and whea"'>Ingridients</button>
                     </div>
                     <div class="col-md-2">
                         <p>C0€</p>
@@ -290,68 +303,11 @@
                     <div class="col-md-10">
                         <p><strong>Duis mattis ex massa</strong></p>
                         <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+                        <p id="p12">
+                        <button type="button" class="btn btn-outline-light" style="width: 100px;" onclick='document.getElementById("p12").innerHTML = "Peanuts, tree nuts, eggs, fish, shellfish, milk, soy and whea"'>Ingridients</button>
                     </div>
                     <div class="col-md-2">
                         <p>C0€</p>
-                    </div>
-                </div>
-                <div class="row menu-row">
-                    <div class="col-md-10">
-                        <p><strong>Duis mattis ex massa</strong></p>
-                        <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
-                    </div>
-                    <div class="col-md-2">
-                        <p>C0€</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-100" style="height: 20px;"></div>
-            <div class="col-sm-12" style="background-image: url('img/m4.jpg'); background-position: center;">
-                <h2 class="h2-menu">Drinks</h2>
-                <hr />
-                <div class="row menu-row">
-                    <div class="col-md-10">
-                        <p><strong>Duis mattis ex massa</strong></p>
-                        <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
-                    </div>
-                    <div class="col-md-2">
-                        <p>C0€</p>
-                    </div>
-                </div>
-                <div class="row menu-row">
-                    <div class="col-md-10">
-                        <p><strong>Duis mattis ex massa</strong></p>
-                        <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
-                    </div>
-                    <div class="col-md-2">
-                        <p>C0€</p>
-                    </div>
-                </div>
-                <div class="row menu-row">
-                    <div class="col-md-10">
-                        <p><strong>Duis mattis ex massa</strong></p>
-                        <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
-                    </div>
-                    <div class="col-md-2">
-                        <p>C0€</p>
-                    </div>
-                </div>
-                <div class="row menu-row">
-                    <div class="col-md-10">
-                        <p><strong>Duis mattis ex massa</strong></p>
-                        <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
-                    </div>
-                    <div class="col-md-2">
-                        <p>C0€</p>
-                    </div>
-                </div>
-                <div class="row menu-row">
-                    <div class="col-md-10">
-                        <p><strong>Duis mattis ex massa</strong></p>
-                        <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
-                    </div>
-                    <div class="col-md-2">
-                        <p style="margin-bottom: 50px;">C0€</p>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,5 @@
-<?php include 'header.php';?>
-
-<?php
-include '../db.php';
+<?php include 'header.php';
+include '../db.php'; 
 $sql = "select * from bookings";
 $result = $conn->query($sql);
 ?>

@@ -6,7 +6,24 @@ $result = mysqli_query($conn,"SELECT * FROM bookings WHERE id= '$a'");
 $row= mysqli_fetch_array($result);
 ?>
 <link rel="stylesheet" href="../style.css">
+
+<?php 
+$displayForm = true;
+
+if(isset($_POST['submit'])) {
+    $displayForm = false;
+        $query = mysqli_query($conn,"DELETE FROM bookings where id='$a'");
+        if($query) {
+            $msg = "<div class='alert alert-success'><p class='text-center'>Record modified succesfully</p><p class='text-center'><a href='index.php'>Go back</a></p></div>";
+        }
+        else { $msg = "Record Not modified"; }
+    }
+    $conn->close();
+?>
+
 <div class="container" style="width: 60%; padding-top: 70px;">
+<?php echo isset($msg)?$msg:"";
+if ($displayForm) { ?>
         <form action="" method="post">
         <div class="form-group">
             <label for="">Name</label>
@@ -39,18 +56,8 @@ $row= mysqli_fetch_array($result);
         <div class="form-group pull-right" style="display: inline-block;">
             <button type="button" class="btn" data-dismiss="modal">Cancel</button>
         </div>
-        </form>
+        </form>        <?php } ?>
 </div>
 
-<?php 
-    if(isset($_POST['submit'])) {
-        $query = mysqli_query($conn,"DELETE FROM bookings where id='$a'");
-        if($query) { ?>
-        <p class="text-center">Record modified succesfully</p>
-        <p class="text-center"><a href="index.php">Go back</a></p>
-        <?php }
-        else { echo "Record Not modified"; }
-    }
-    $conn->close();
-    include 'footer.php';
-?>
+
+<?php include 'footer.php'; ?>

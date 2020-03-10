@@ -78,6 +78,20 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <p>Don't have an account? <a href="registration.php">Sign up now</a>.</p>
         </form>
-    </div>    
+    </div>  
+    <script>  
+function validateform(){  
+var username=document.myform.name.value;  
+var password=document.myform.password.value;  
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+}  
+</script>                                                                                         
 </body>
 </html>

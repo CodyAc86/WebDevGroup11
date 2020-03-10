@@ -1,4 +1,4 @@
-﻿<?php include 'header.php'; ?>
+﻿<?php include 'header.php'; include 'db.php'; ?>
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">

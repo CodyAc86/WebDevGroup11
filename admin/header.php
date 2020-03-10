@@ -14,6 +14,15 @@
         @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
         @import url('img/spectrum.ttf');
     </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("#btn_changes").click(function(){
+    $("#changes").load("singlerow.php");
+  });
+});
+</script>
     
 </head>
 <body>
@@ -39,6 +48,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="../reserve.php">Reserve</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../login.php">Login</a>
+                </li>
             </ul>
+            
         </div>
     </nav>

@@ -16,7 +16,11 @@
     </style>
     
 </head>
-<body>
+<body> 
+<?php
+session_start();
+ 
+?>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="nav">
 
         <a class="navbar-brand" href="home.php"><img src="img/logo.png" style="width: 40px; margin-right: 40px;" /></a>
@@ -39,6 +43,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="reserve.php">Reserve</a>
                 </li>
+                <?php if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) { ?>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.php">Login</a>
+                    </li>
+                <?php } else { ?>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.php">Logout</a>
+                    </li>
+                <?php } ?>
             </ul>
         </div>
     </nav>

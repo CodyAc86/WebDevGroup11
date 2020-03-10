@@ -7,7 +7,6 @@ include 'header.php'; ?>
 $a = $_GET['id'];
 $result = mysqli_query($conn,"SELECT * FROM bookings WHERE id= '$a'");
 $row= mysqli_fetch_array($result);
-
 $displayForm = true;
 
 if(isset($_POST['submit'])) {
@@ -71,6 +70,7 @@ if ($displayForm) { ?>
         </form>
         <?php } ?>
 </div>
+
 
 
 <?php include 'footer.php'; ?>

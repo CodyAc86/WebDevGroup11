@@ -104,6 +104,47 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <p>Already have an account? <a href="login.php">Login here</a>.</p>
         </form>
-    </div>    
+    </div>  
+<script>  
+function validateform (){  
+                                    
+    var username = document.forms["Form-group"]["username"];  
+    var password = document.forms["Form-group"]["Password"];        
+    var email = document.forms["Form-group"]["email"];    
+    var Phonenumber = document.forms["Form-group"]["tel"];  
+      
+   
+   
+    if (name.value == "")                                  
+    { 
+        window.alert("Please enter your name."); 
+        name.focus(); 
+        return false; 
+    } 
+       
+    if (email.value == "")                                   
+    { 
+        window.alert("Please enter a valid email address."); 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (tel.value == "")                           
+    { 
+        window.alert("Please enter your number."); 
+        tel.focus(); 
+        return false; 
+    } 
+   
+    if (password.value == "")                        
+    { 
+        window.alert("Please enter your password"); 
+        password.focus(); 
+        return false; 
+    } 
+   
+    return true; 
+}
+</script>  
 </body>
 </html>
